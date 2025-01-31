@@ -4,3 +4,5 @@ uvloop
 python-dotenv
 sqlalchemy==1.3.23
 pymongo==4.6.1
+psycop2
+pyrogram
