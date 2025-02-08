@@ -16,6 +16,7 @@ HEROKU_APP_NAME = os.getenv("HEROKU_APP_NAME", None)
 HEROKU_API_KEY = os.getenv("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "master")
 DB_URL = os.getenv("DB_URL", "")
+DB_NAME = os.getenv("DB_NAME", "")
 FORCE_SUB_ = {}
 FSUB_TOTAL = 1
 while True:
